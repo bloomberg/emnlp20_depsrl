@@ -1,0 +1,36 @@
+For all files that are not explicitly labeled in the tree below:
+Author: Tianze Shi
+Copyright 2020 Bloomberg Finance L.P.
+Apache 2.0 License
+
+Authors and licenses for external files are specified below:
+
+├── data_prep
+│  ├── aggregate.sh
+│  ├── chinese_dep_tree.sh
+│  ├── chinese_fuse.py
+│  ├── constituency_tree.sh
+│  ├── english_dep_tree.sh
+│  ├── english_fuse.py
+│  └── space_to_tab.sh
+├── scripts
+│  └── srl.sh
+├── srl
+│  ├── __init__.py
+│  ├── adamw.py -- Tianze Shi, PyTorch authors, https://github.com/pytorch/pytorch, LICENSES/PyTorch
+│  ├── attention.py -- Tianze Shi, AllenNLP authors, https://github.com/allenai/allennlp, Apache 2.0 License
+│  ├── calgorithm.pyx -- Tianze Shi, https://github.com/tzshi/flat-mwe-parsing, MIT License
+│  ├── const.py
+│  ├── conversion.py
+│  ├── crf.py -- Tianze Shi, NCRF++ authors, https://github.com/jiesutd/NCRFpp, Apache 2.0 License
+│  ├── data.py
+│  ├── dropout.py
+│  ├── features.py -- Tianze Shi, NCRF++ authors, https://github.com/jiesutd/NCRFpp, Apache 2.0 License
+│  ├── filter_embeddings.py
+│  ├── graph.py
+│  ├── io.py
+│  ├── modules.py
+│  ├── parser.py
+│  ├── transformer.py -- Tianze Shi, https://github.com/tzshi/flat-mwe-parsing, MIT License
+│  └── utils.py
+└── test.py

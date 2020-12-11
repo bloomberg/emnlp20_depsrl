@@ -1,0 +1,12 @@
+*.pyc
+__pycache__
+models
+data
+embeddings
+notebooks
+local
+runs
+*.conll
+*.txt
+*.subset
+*.confusion

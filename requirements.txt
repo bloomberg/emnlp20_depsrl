@@ -1,0 +1,5 @@
+torch==1.4.0
+numpy==1.16.2
+transformers==3.4.0
+Cython==0.29.6
+fire==0.1.3
